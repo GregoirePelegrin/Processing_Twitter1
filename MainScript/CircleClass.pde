@@ -1,12 +1,12 @@
 class CircleClass{
   private int x;
   private int y;
-  private int rotSpeed;
+  private float rotSpeed;
   private int radiusCenter;
   private int radiusDisplay;
   private String colorCircle;
   
-  CircleClass(int xCoord, int yCoord, int speed, int radD, String col){
+  CircleClass(int xCoord, int yCoord, float speed, int radD, String col){
     this.x = xCoord;
     this.y = yCoord;
     this.rotSpeed = speed;
